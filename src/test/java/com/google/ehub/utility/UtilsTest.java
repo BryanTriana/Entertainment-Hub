@@ -50,12 +50,6 @@ public final class UtilsTest {
   }
 
   @Test
-  public void getTimestampMillisFromDateWithValidParams_ReturnsCorrectTimestamp() {
-    Assert.assertEquals(
-        CORRECT_TIMESTAMP, Utils.getTimestampMillisFromDate(VALID_DATE, DATE_FORMAT));
-  }
-
-  @Test
   public void getTimestampMillisFromDateWithConflictingFormat_ReturnsNull() {
     Assert.assertNull(Utils.getTimestampMillisFromDate(DATE_WITH_CONFLICTING_FORMAT, DATE_FORMAT));
   }
@@ -73,12 +67,6 @@ public final class UtilsTest {
   @Test
   public void getDateFromTimestampMillisWithNullFormat_ReturnsNull() {
     Assert.assertNull(Utils.getDateFromTimestampMillis(CORRECT_TIMESTAMP, null));
-  }
-
-  @Test
-  public void getDateFromTimestampMillisWithValidParams_ReturnsCorrectDate() {
-    Assert.assertEquals(
-        VALID_DATE, Utils.getDateFromTimestampMillis(CORRECT_TIMESTAMP, DATE_FORMAT));
   }
 
   @Test
