@@ -1,4 +1,6 @@
 # Entertainment Hub
+http://entertainment-hub-project.appspot.com/
+
 Community forum that makes it possible for people to find and talk about the movies and TV-shows they enjoy.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=MkHJAbvs0pU
